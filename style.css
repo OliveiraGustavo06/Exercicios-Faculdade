@@ -1,0 +1,20 @@
+body{
+    /*Propriedade para alterar a cor de fundo*/
+    background-color: darkcyan;
+    color: azure;
+}
+
+nav{
+    background-color: greenyellow;
+}
+h1{
+    background-color: black;
+    font-size: 75px;
+}
+nav{
+    background-color: white;
+    font-size: 30px;
+}
+main{
+    font-size: 25px;
+}
