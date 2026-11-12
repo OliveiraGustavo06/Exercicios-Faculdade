@@ -1,0 +1,41 @@
+.contador {
+    display: inline-flex;
+    margin: 8px 0;
+    border: 1px solid #888;
+    border-radius: 8px;
+    overflow: hidden;
+}
+ 
+.contador button, .contador input {
+    height: 40px;
+    border: none;
+    font: inherit;
+    font-size: 18px;
+    background-color: #fff;
+    outline: none;
+}
+ 
+.contador button {
+    width: 40px;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+ 
+.contador button:hover {
+    background: #ccc;
+}
+ 
+.contador input {
+    width: 60px;
+    text-align: center;
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+ 
+.contador input::-webkit-inner-spin-button,
+.contador input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

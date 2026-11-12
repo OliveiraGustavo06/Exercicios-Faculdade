@@ -1,0 +1,33 @@
+.palavra{
+    display: flex;
+    gap: 15px;
+}
+
+.palavra input{
+    width: 40px;
+    font-size: 32px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 3px solid gray;
+    text-transform: lowercase;
+}
+
+#verificar {
+    margin-top: 20px;
+}
+
+#tentativas{
+    margin-top: 20px;
+    border-collapse: collapse ;
+}
+
+#tentativas td {
+    width: 40px;
+    height: 28px;
+    text-align: center;
+    text-transform: lowercase;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
