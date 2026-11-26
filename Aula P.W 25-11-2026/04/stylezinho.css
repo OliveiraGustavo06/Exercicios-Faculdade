@@ -1,0 +1,55 @@
+:root {
+    --alturaPadrao: 50px
+}
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+ 
+#tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(8, var(--alturaPadrao));
+    grid-template-rows: repeat(8, var(--alturaPadrao));
+    gap: 0;
+    border: 3px solid #000;
+    background-color: #000;
+}
+ 
+.casa {
+    width: var(--alturaPadrao);
+    height: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+ 
+.casa.branca {
+    background-color: #fff;
+}
+ 
+.peca {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*impede que o texto seja selecionado*/
+    user-select: none;
+}
+ 
+.peca.azul {
+    background-color: #3498db;
+}
+ 
+.peca.vermelha {
+    background-color: #e74c3c;
+}
+ 

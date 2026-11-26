@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*considera a margem como parte da altura e largura do elemento*/
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    height: 400px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+div{
+   /* height: 100px; */
+    width: 100px;
+}
+
+.primeiro{
+    background-color: white;
+}
+
+.segundo{
+    background-color: whitesmoke;
+}
+
+.terceiro{
+    background-color: gray;
+}
+
+.quarto{
+    background-color:black;
+}

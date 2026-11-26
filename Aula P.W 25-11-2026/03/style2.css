@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+}
+
+#container{
+    display: grid;
+    min-width: 200px;
+    max-width: 800px;
+    height: 100vh;
+    margin: 0;
+
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 3fr;
+
+    grid-template-areas: 
+    " header header"
+    "menu conteudo"
+    "footer footer";
+}
+
+#header{
+    grid-area: header;
+    background-color: #333;
+}
+
+#menu{
+    grid-area: menu;
+    background-color: aqua;
+}
+
+#conteudo{
+    grid-area: conteudo;
+    background-color: blanchedalmond;
+}
+
+#footer{
+    grid-area: footer;
+    background-color: #874;
+}

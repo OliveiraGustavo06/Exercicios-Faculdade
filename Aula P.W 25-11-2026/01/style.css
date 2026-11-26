@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+#boardGame {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    /*Atribui uma imagem ao elemento HTML */
+    background-image: url(faixa.pedestre.jpg);
+    /*Faz uma imagem preencher todo o elemento*/ 
+    background-size:cover;
+    /*Posiciona a imagem a partir da parte inferior*/
+    background-position: bottom;
+    /*Esconde os elementos que ficam fora do boardGame*/
+    overflow: hidden;
+
+}
+
+#personagem{
+    width: 64px;
+    height: 64px;
+    /*Atribui uma imagem ao elemento HTML */
+     background-image: url(personagem.avif);
+     /*Faz uma imagem preencher todo o elemento*/ 
+     background-size:cover;
+     /*Posiciona a imagem a partir da parte inferior*/
+     background-position: bottom;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
